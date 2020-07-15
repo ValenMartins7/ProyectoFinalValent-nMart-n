@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <!--------------------------------------------------------------------------------------------------------------------------->
+   <template id="tabifit-Logo">
+       <img src="logo/Logopic.jpg">
+   </template>
+
+   <template id= "tabifit-BotonComenzar">
+       <button type="button">COMENZAR</button>
+   </template>
+
+   <template id="tabifit-BotonRepetir">
+       <button type="button">REPETIR SESIÓN</button>
+   </template>
+
+   <!--Pantalla selector series-->
+
+   <!--Template titulo "¿Cuantas series quieres hacer?"-->
+
+   <template id="tabifit-SelectorSeries">
+       <div>
+           <div><button id="BotonRestaSeries" type="button">-</button></div>
+           <div id="SerieActual">1</div>
+           <div><button id="BotonSumaSeries" type="button">+</button></div>
+       </div>
+   </template>
+
+   <template id="tabifit-PantallaAnterior">
+       <button id="PantallaAnterior" type="button">VOLVER</button>
+   </template>
+
+   <template id="tabifit-PantallaSiguiente">
+       <button id="PantallaSiguiente" type="button">SIG.</button>
+   </template>
+
+   <!--Pantalla selector Vueltas-->
+
+   <!--Template Titulo "¿Cuantas vueltas vas a hacer?"-->
+
+   <template id="tabifit-SelectorVueltas">
+    <div>
+        <div><button id="BotonRestaVuelta" type="button">-</button></div>
+        <div id="VueltaActual">1</div>
+        <div><button id="BotonSumaVueltas" type="button">+</button></div>
+    </div>
+  </template>
+
+  <!--Reutilizar template "VOLVER" y "SIGUIENTE" O cada template con su botonera ?-->
+
+  <!--Pantalla selector Ejercicio-->
+
+  <!--Template titulo "¿Que ejercicio va a hacer ?"-->
+
+  <template id="tabifit-SelectorEjercicio">
+      <form>
+          <label for="Abdominales">Abdominales</label> <input type="radio">
+          <label for="Sentadillas">Sentadillas</label> <input type="radio">
+          <label for="Flexiones">Flexiones</label> <input type="Flexiones">
+      </form>
+  </template>
+
+  <!--Templete "VOLVER" y "SIGUIENTE" o botonera propia-->
+
+  <!--Pantalla pre-Comienzo 10s-->
+
+  <!--Mensaje "Comienza en"-->
+
+  <template id="tabifit-ContadorCorto">
+      <div id="SegunderoCorto">10</div>
+  </template>
+
+  <!--Mensaje "!VAMOS!" en segundo 0-->
+
+  <!--Pantalla de Ejercicio-->
+
+  <template id="tabifit-ContadorVueltas">
+      <div>
+      <div id="VueltaActual">1</div>
+      <div id="VueltaTotal">10</div>
+      </div>
+  </template>
+
+  <template id="tabifit-ContadorSeries">
+    <div>
+        <div id="SerieActual">1</div>
+        <div id="SerieTotal">10</div>
+    </div>
+  </template>
+
+  <template id="tabifit-ContadorLargo">
+    <div id="SegunderoLargo">20</div>
+  </template>
+
+  <template id="tabifit-EjercicioActual">
+      <div id="EjercicioActual"><slot></slot></div>
+  </template>
+
+  <!--Pantalla preComienzo 10S-->
+
+  <!--Mensaje "Descanza"-->
+
+  <!--Template contadorCorto-->
+
+  <!--mensaje "Vamos" 0s-->
+
+  <!--Pantalla de ejercicio-->
+
+  <!--Template Contador serie ; Vueltas ; Contador Largo ; EjercicioActual-->
+
+  <!--Pantalla "Bienvenida"-->
+
+  <!--Mensaje "!LISTO!"-->
+
+  <template id="tabifit-GuardarSesion">
+      <button type="button">GUARDAR SESION</button>
+  </template>
+
+  <template id="tabifit-Salir">
+      <button type="button">SALIR</button>
+  </template>
+ 
+  <!----------------------------------------------------------------------------------------------------------------------------->
+   <script src="Utilidades.js"/>
+   <script src="Logo.js"/>
+   <script src="BotonComenzar.js"/>
+   <script src="BotonRepetir.js"/>
+   <script src="SelectorSeries.js"/>
+   <script src="PantallaAnterior.js"/>
+   <script src="PantallaSiguiente.js"/>
+   <script src="SelectorVueltas.js"/>
+   <script src="SelectorEjercicio.js"/>
+   <script src="ContadorCorto.js"/>
+   <script src="ContadorVueltas.js"/>
+   <script src="ContadorSeries.js"/>
+   <script src="ContadorLargo.js"/>
+   <script src="EjercicioActual.js"/>
+   <script src="BotonGuardarSesion.js"/>
+
+
+   
+</body>
+</html>
