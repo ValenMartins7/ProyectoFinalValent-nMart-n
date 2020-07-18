@@ -1,8 +1,8 @@
 class TabifitEjercicioActual extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-EjercicioActual", this);
+        cargarTemplate("#tabifit-ejercicioactual", this);
     }
 }
 
-customElements.define("tabifit-EjercicioActual", TabifitEjercicioActual);
+customElements.define("tabifit-ejercicioactual", TabifitEjercicioActual);

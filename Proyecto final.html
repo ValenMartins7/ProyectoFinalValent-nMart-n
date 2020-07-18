@@ -7,26 +7,24 @@
 </head>
 <body>
     
-    
     <!--------------------------------------------------------------------------------------------------------------------------->
-   <!--Pantalla "bienvenida"-->
-   <template id="tabifit-Logo">
-       <img src="logo/Logopic.jpg">
-   </template>
+    
+       <!--Pantalla "bienvenida"-->
+     <template id="tabifit-logo">
+        <img class="Logo" src="logo/fitness-logo-template-with-an-abstract-energetic-human-illustration-2457a@2x.png">
+     </template>
 
-   <template id= "tabifit-BotonComenzar">
-       <button type="button">COMENZAR</button>
-   </template>
+     <template id= "tabifit-boton">
+       <button  type="button"><slot></slot></button>
+     </template>
 
-   <template id="tabifit-BotonRepetir">
-       <button type="button">REPETIR SESIÓN</button>
-   </template>
-
+     
+    
    <!--Pantalla selector series-->
 
    <!--Template titulo "¿Cuantas series quieres hacer?"-->
 
-   <template id="tabifit-SelectorSeries">
+   <template id="tabifit-selectorseries">
        <div>
            <div><button id="BotonRestaSeries" type="button">-</button></div>
            <div id="SerieActual">1</div>
@@ -34,11 +32,11 @@
        </div>
    </template>
 
-   <template id="tabifit-PantallaAnterior">
+   <template id="tabifit-pantallaanterior">
        <button id="PantallaAnterior" type="button">VOLVER</button>
    </template>
 
-   <template id="tabifit-PantallaSiguiente">
+   <template id="tabifit-pantallasiguiente">
        <button id="PantallaSiguiente" type="button">SIG.</button>
    </template>
 
@@ -46,7 +44,7 @@
 
    <!--Template Titulo "¿Cuantas vueltas vas a hacer?"-->
 
-   <template id="tabifit-SelectorVueltas">
+   <template id="tabifit-selectorvueltas">
     <div>
         <div><button id="BotonRestaVuelta" type="button">-</button></div>
         <div id="VueltaActual">1</div>
@@ -60,7 +58,7 @@
 
   <!--Template titulo "¿Que ejercicio va a hacer ?"-->
 
-  <template id="tabifit-SelectorEjercicio">
+  <template id="tabifit-selectorejercicio">
       <form>
           <label for="Abdominales">Abdominales</label> <input type="radio">
           <label for="Sentadillas">Sentadillas</label> <input type="radio">
@@ -74,7 +72,7 @@
 
   <!--Mensaje "Comienza en"-->
 
-  <template id="tabifit-ContadorCorto">
+  <template id="tabifit-contadorcorto">
       <div id="SegunderoCorto">10</div>
   </template>
 
@@ -82,25 +80,25 @@
 
   <!--Pantalla de Ejercicio-->
 
-  <template id="tabifit-ContadorVueltas">
+  <template id="tabifit-contadorvueltas">
       <div>
       <div id="VueltaActual">1</div>
       <div id="VueltaTotal">10</div>
       </div>
   </template>
 
-  <template id="tabifit-ContadorSeries">
+  <template id="tabifit-contadorseries">
     <div>
         <div id="SerieActual">1</div>
         <div id="SerieTotal">10</div>
     </div>
   </template>
 
-  <template id="tabifit-ContadorLargo">
+  <template id="tabifit-contadorlargo">
     <div id="SegunderoLargo">20</div>
   </template>
 
-  <template id="tabifit-EjercicioActual">
+  <template id="tabifit-ejercicioactual">
       <div id="EjercicioActual"><slot></slot></div>
   </template>
 
@@ -120,30 +118,27 @@
 
   <!--Mensaje "!LISTO!"-->
 
-  <template id="tabifit-GuardarSesion">
-      <button type="button">GUARDAR SESION</button>
-  </template>
-
-  <template id="tabifit-Salir">
-      <button type="button">SALIR</button>
-  </template>
+  
  
   <!----------------------------------------------------------------------------------------------------------------------------->
-   <script src="Utilidades.js"/>
-   <script src="Logo.js"/>
-   <script src="BotonComenzar.js"/>
-   <script src="BotonRepetir.js"/>
-   <script src="SelectorSeries.js"/>
-   <script src="PantallaAnterior.js"/>
-   <script src="PantallaSiguiente.js"/>
-   <script src="SelectorVueltas.js"/>
-   <script src="SelectorEjercicio.js"/>
-   <script src="ContadorCorto.js"/>
-   <script src="ContadorVueltas.js"/>
-   <script src="ContadorSeries.js"/>
-   <script src="ContadorLargo.js"/>
-   <script src="EjercicioActual.js"/>
-   <script src="BotonGuardarSesion.js"/>
+   <script src="Utilidades.js"></script>
+   <script src="Logo.js"></script>
+   <script src="Boton.js"></script>
+   <script src="SelectorSeries.js"></script>
+   <script src="PantallaAnterior.js"></script>
+   <script src="PantallaSiguiente.js"></script>
+   <script src="SelectorVueltas.js"></script>
+   <script src="SelectorEjercicio.js"></script>
+   <script src="ContadorCorto.js"></script>
+   <script src="ContadorVueltas.js"></script>
+   <script src="ContadorSeries.js"></script>
+   <script src="ContadorLargo.js"></script>
+   <script src="EjercicioActual.js"></script>
+   
+
+   <!------------------------------------------------------------------------------------------------------------------------------>
+
+   
 
 
    

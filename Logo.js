@@ -1,8 +1,8 @@
 class TabifitLogo extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-Logo", this);
+        cargarTemplate("#tabifit-logo", this);
     }
 }
 
-customElements.define("tabifit-Logo", TabifitLogo);
+customElements.define("tabifit-logo", TabifitLogo);

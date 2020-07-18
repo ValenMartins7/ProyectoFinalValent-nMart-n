@@ -1,8 +1,8 @@
 class TabifitContadorCorto extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-ContadorCorto", this);
+        cargarTemplate("#tabifit-contadorcorto", this);
     }
 }
 
-customElements.define("tabifit-ContadorCorto", TabifitContadorCorto);
+customElements.define("tabifit-contadorcorto", TabifitContadorCorto);

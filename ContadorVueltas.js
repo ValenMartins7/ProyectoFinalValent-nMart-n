@@ -1,8 +1,8 @@
 class TabifitContadorVueltas extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-ContadorVueltas", this);
+        cargarTemplate("#tabifit-contadorvueltas", this);
     }
 }
 
-customElements.define("tabifit-ContadorVueltas", TabifitContadorVueltas);
+customElements.define("tabifit-contadorvueltas", TabifitContadorVueltas);

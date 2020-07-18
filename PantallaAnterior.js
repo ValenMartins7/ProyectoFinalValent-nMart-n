@@ -1,8 +1,8 @@
 class TabifitPantallaAnterior extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-PantallaAnterior", this);
+        cargarTemplate("#tabifit-pantallaanterior", this);
     }
 }
 
-customElements.define("tabifit-PantallaAnterior", TabifitPantallaAnterior);
+customElements.define("tabifit-pantallaanterior", TabifitPantallaAnterior);

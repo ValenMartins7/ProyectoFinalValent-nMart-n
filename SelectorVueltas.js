@@ -1,8 +1,8 @@
 class TabifitSelectorVueltas extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-SelectorVueltas", this);
+        cargarTemplate("#tabifit-selectorvueltas", this);
     }
 }
 
-customElements.define("tabifit-SelectorVueltas", TabifitSelectorVueltas);
+customElements.define("tabifit-selectorvueltas", TabifitSelectorVueltas);

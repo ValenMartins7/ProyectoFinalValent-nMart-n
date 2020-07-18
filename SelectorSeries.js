@@ -1,8 +1,8 @@
 class TabifitSelectorSeries extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-SelectorSeries", this);
+        cargarTemplate("#tabifit-selectorseries", this);
     }
 }
 
-customElements.define("tabifit-SelectorSeries", TabifitSelectorSeries);
+customElements.define("tabifit-selectorseries", TabifitSelectorSeries);

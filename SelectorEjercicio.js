@@ -1,8 +1,8 @@
 class TabifitSelectorEjercicio extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-SelectorEjercicio", this);
+        cargarTemplate("#tabifit-selectorejercicio", this);
     }
 }
 
-customElements.define("tabifit-SelectorEjercicio", TabifitSelectorEjercicio);
+customElements.define("tabifit-selectorejercicio", TabifitSelectorEjercicio);

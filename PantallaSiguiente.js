@@ -1,8 +1,8 @@
 class TabifitPantallaSiguiente extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-PantallaSiguiente", this);
+        cargarTemplate("#tabifit-pantallasiguiente", this);
     }
 }
 
-customElements.define("tabifit-PantallaSiguiente", TabifitPantallaSiguiente);
+customElements.define("tabifit-pantallasiguiente", TabifitPantallaSiguiente);

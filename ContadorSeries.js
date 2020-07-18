@@ -1,8 +1,8 @@
 class TabifitContadorSeries extends HTMLElement {
     constructor() {
         super();
-        cargarTemplate("#tabifit-ContadorSeries", this);
+        cargarTemplate("#tabifit-contadorseries", this);
     }
 }
 
-customElements.define("tabifit-ContadorSeries", TabifitContadorSeries);
+customElements.define("tabifit-contadorseries", TabifitContadorSeries);
