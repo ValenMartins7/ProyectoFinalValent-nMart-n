@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+#bienvenida{
+    background-color: #00C9FF73;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tabifit-pantalla{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+    padding-top: 250px;
+    width: 350px;
+    width: 350px;
+}
+

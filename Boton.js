@@ -1,8 +1,8 @@
-class TabifitBotonComenzar extends HTMLElement {
+class TabifitBoton extends HTMLElement {
     constructor() {
         super();
         cargarTemplate("#tabifit-boton", this);
     }
 }
 
-customElements.define("#tabifit-boton", TabifitBotonComenzar);
+customElements.define("tabifit-boton", TabifitBoton);
